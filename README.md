@@ -41,7 +41,7 @@ new ShowcaseView.Builder(this)
 		.hideOnTouchOutside()
 		.build();
 ```
-It's the default using of ShowcaseView, you set button as target.
+	It's the default using of ShowcaseView, you set button as target.
 4. In CustomActivity, you have nothing to target, so code like this:
 ```java
 ShowcaseView showcaseView = new ShowcaseView.Builder(this)
