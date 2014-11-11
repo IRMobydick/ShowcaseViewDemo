@@ -45,20 +45,20 @@ If you see [the wiki](https://github.com/amlcurran/ShowcaseView/wiki) of Showcas
 4. In CustomActivity, you have nothing to target, so code like this:
 	```java
 	ShowcaseView showcaseView = new ShowcaseView.Builder(this)
-											.setStyle(R.style.Custom_semi_transparent_demo)//setStyle instead of setTarget!
-											.hideOnTouchOutside()
-											.build();
+								.setStyle(R.style.Custom_semi_transparent_demo)//setStyle instead of setTarget!
+								.hideOnTouchOutside()
+								.build();
 
-			//showcaseView.setBackground(getResources().getDrawable(R.drawable.swipe_back_en));//minAPI=16
-			showcaseView.setBackgroundDrawable(getResources().getDrawable(R.drawable.swipe_back_en));//deprecated.
+	//showcaseView.setBackground(getResources().getDrawable(R.drawable.swipe_back_en));//minAPI=16
+	showcaseView.setBackgroundDrawable(getResources().getDrawable(R.drawable.swipe_back_en));//deprecated.
 	```
 	You don't have to set any target, instead, you setStyle and then **manually setBackground(Drawable) on the ShowcaseView once created**. The `Custom_semi_transparent_demo` style like this:
 	```xml
 	<!--look at this: https://github.com/amlcurran/ShowcaseView/issues/159-->
-		<style name="Custom_semi_transparent_demo" parent="ShowcaseView.Light">
-			<item name="sv_backgroundColor">#663d4353</item> <!--you can customize it-->
-			<item name="sv_showcaseColor">#25467A</item> <!--you can customize it-->
-			<item name="sv_buttonText">Close</item> <!--you can customize it-->
-		</style>
+	<style name="Custom_semi_transparent_demo" parent="ShowcaseView.Light">
+		<item name="sv_backgroundColor">#663d4353</item> <!--you can customize it-->
+		<item name="sv_showcaseColor">#25467A</item> <!--you can customize it-->
+		<item name="sv_buttonText">Close</item> <!--you can customize it-->
+	</style>
 	```
 It's done! The `R.drawable.swipe_back_en` is the semi-transparent demo screen you want to add.
