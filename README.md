@@ -61,4 +61,9 @@ If you see [the wiki](https://github.com/amlcurran/ShowcaseView/wiki) of Showcas
 		<item name="sv_buttonText">Close</item> <!--you can customize it-->
 	</style>
 	```
+
 It's done! The `R.drawable.swipe_back_en` is the semi-transparent demo screen you want to add.
+
+Feel free to download my project source.
+
+该项目的中文说明请看[这篇博客](http://beeder.github.io/2014/11/11/how-to-add-a-semi-transparent-demo-screen-using-showcaseview/)。
