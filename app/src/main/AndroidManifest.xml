@@ -24,6 +24,14 @@
             android:name=".CustomActivity"
             android:label="@string/title_activity_custom" >
         </activity>
+        <activity
+            android:name=".MultipleDefaultActivity"
+            android:label="@string/title_activity_multiple_default" >
+        </activity>
+        <activity
+            android:name=".MultipleCustomActivity"
+            android:label="@string/title_activity_multiple_custom" >
+        </activity>
     </application>
 
 </manifest>

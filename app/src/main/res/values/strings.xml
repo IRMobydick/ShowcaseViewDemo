@@ -4,5 +4,9 @@
     <string name="app_name">ShowcaseViewDemo</string>
     <string name="title_activity_default">DefaultShowcaseView</string>
     <string name="title_activity_custom">CustomShowcaseView</string>
+    <string name="title_activity_multiple_default">MultipleDefaultActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_multiple_custom">MultipleCustomActivity</string>
 
 </resources>

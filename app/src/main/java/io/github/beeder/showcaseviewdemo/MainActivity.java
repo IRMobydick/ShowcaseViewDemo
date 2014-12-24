@@ -16,6 +16,8 @@ public class MainActivity extends Activity {
 
         Button show_default_SCV_bn=(Button)findViewById(R.id.default_showcase_view_bn);
         Button show_custom_SCV_bn=(Button)findViewById(R.id.custom_showcase_view_bn);
+        Button show_multiple_default_SCV_bn=(Button)findViewById(R.id.multiple_default_showcase_view_bn);
+        Button show_multiple_custom_SCV_bn=(Button)findViewById(R.id.multiple_custom_showcase_view_bn);
 
         show_default_SCV_bn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,6 +31,22 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,CustomActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        show_multiple_default_SCV_bn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,MultipleDefaultActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        show_multiple_custom_SCV_bn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,MultipleCustomActivity.class);
                 startActivity(intent);
             }
         });
