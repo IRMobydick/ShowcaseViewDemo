@@ -69,7 +69,7 @@ Feel free to download my project source.
 该项目的中文说明请看[这篇博客](http://beeder.github.io/2014/11/11/how-to-add-a-semi-transparent-demo-screen-using-showcaseview/)。
 
 ---
-Update on 2014.12.24
+###Update on 2014.12.24
 
 1. **You can't import showcaseview library to Eclipse, see [Issue](https://github.com/amlcurran/ShowcaseView/issues/194), But someone did it, [see this answer](http://stackoverflow.com/a/24949067)。**
 **(About how to import source library to eclipse：[http://developer.android.com/tools/projects/projects-eclipse.html#ReferencingLibraryProject](http://developer.android.com/tools/projects/projects-eclipse.html#ReferencingLibraryProject)、[http://stackoverflow.com/a/8281477](http://stackoverflow.com/a/8281477).)**
