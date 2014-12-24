@@ -70,12 +70,14 @@ Feel free to download my project source.
 
 ---
 Update on 2014.12.24
+
 1. **You can't import showcaseview library to Eclipse, see [Issue](https://github.com/amlcurran/ShowcaseView/issues/194), But someone did it, [see this answer](http://stackoverflow.com/a/24949067)。**
 **(About how to import source library to eclipse：[http://developer.android.com/tools/projects/projects-eclipse.html#ReferencingLibraryProject](http://developer.android.com/tools/projects/projects-eclipse.html#ReferencingLibraryProject)、[http://stackoverflow.com/a/8281477](http://stackoverflow.com/a/8281477).)**
 
-2. If you want to display showcase views sequentially on the same screen, this might help [https://github.com/amlcurran/ShowcaseView/wiki/Display-showcase-views-sequentially-on-the-same-screen](https://github.com/amlcurran/ShowcaseView/wiki/Display-showcase-views-sequentially-on-the-same-screen), just override function `onShowcaseViewHide(ShowcaseView showcaseView);` or `onShowcaseViewDidHide(ShowcaseView showcaseView);` My Demo has already achieved this, [https://github.com/Beeder/ShowcaseViewDemo](https://github.com/Beeder/ShowcaseViewDemo).
+2. If you want to display showcase views sequentially on the same screen, this might help: [https://github.com/amlcurran/ShowcaseView/wiki/Display-showcase-views-sequentially-on-the-same-screen](https://github.com/amlcurran/ShowcaseView/wiki/Display-showcase-views-sequentially-on-the-same-screen), just override function `onShowcaseViewHide(ShowcaseView showcaseView);` or `onShowcaseViewDidHide(ShowcaseView showcaseView);` My Demo has already achieved this, [https://github.com/Beeder/ShowcaseViewDemo](https://github.com/Beeder/ShowcaseViewDemo).
 
-3. The latest version is 5.0.0，You can globally change the highlight circle radius by code below:（[https://github.com/amlcurran/ShowcaseView/issues/259](https://github.com/amlcurran/ShowcaseView/issues/259)）
+3. The latest version is 5.0.0，You can globally change the highlight circle radius by code below: ([https://github.com/amlcurran/ShowcaseView/issues/259](https://github.com/amlcurran/ShowcaseView/issues/259))
+		
 		<dimen name="showcase_radius">94dp</dimen>
 		<dimen name="showcase_radius_inner">96dp</dimen>
 		<dimen name="showcase_radius_outer">128dp</dimen>
